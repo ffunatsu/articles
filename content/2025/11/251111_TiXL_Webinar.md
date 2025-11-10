@@ -1,3 +1,8 @@
+---
+tags:
+  - TiXL
+---
+
 YouTubeに上がってたTiXLの初心者向けウェビナーがすごく良さげだった。
 
 https://youtu.be/5KX92VWEAG8?si=2lk4o0s7VXAtHsvo
