@@ -44,6 +44,12 @@ mkdir ~/.cache/starship
 starship init nu | save -f ~/.cache/starship/init.nu
 ```
 
+さらに `nvim $nu.env-path` 等で以下を追記
+
+```
+source ~/.cache/starship/init.nu
+```
+
 なお、プリセット等を設定しないと何も出ないので、例えば以下のnerd-font-symbolsを初期設定するなら、初回だけ以下を実行。
 
 https://starship.rs/ja-JP/presets/nerd-font
@@ -67,3 +73,11 @@ https://github.com/nushell/nu_scripts
 https://github.com/nushell/nu_scripts/blob/main/modules/virtual_environments/conda.nu
 
 あとは、これを読み込む設定をすれば完了。
+
+## 余談: catの代替 on Windows
+
+記事の主旨には無関係だけれど、Windowsで cat をすると文字コードの関係で日本語が文字化けしやすいので、`bat -p` を代わりに使うことが個人的におすすめ。こういう記事に貼り付けるときにも便利。
+
+```
+cargo install bat
+```
