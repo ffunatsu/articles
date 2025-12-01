@@ -1,3 +1,9 @@
+---
+tags:
+  - conda
+  - python
+  - nushell
+---
 Nu (nushell) でcondaのactivate / deactivateの初期設定がいつもわからなくなるのでメモ。
 
 ## TL;DR
