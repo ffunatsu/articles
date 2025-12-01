@@ -5,7 +5,7 @@ Nu (nushell) でcondaのactivate / deactivateの初期設定がいつもわか�
 ```bash
 $ cd $nu.default-config-dir
 
-$ wget https://raw.githubusercontent.com/nushell/nu_scripts/refs/heads/main/modules/virtual_environments/conda.nu
+$ http get https://raw.githubusercontent.com/nushell/nu_scripts/refs/heads/main/modules/virtual_environments/conda.nu | save -f conda.nu
 ```
 
 その後 `nvim $nu.config-path` 等で以下を追記
