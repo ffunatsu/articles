@@ -21,6 +21,10 @@ source ($nu.default-config-dir | path join 'conda.nu')
 activate base # 自動でbaseをactivateしたい場合のみ。
 ```
 
+なおコマンドは、`conda activate` ではなく `activate`。`conda deactivate` ではなく `deactivate` である点に注意。
+
+`conda env list` など、シェルの状態に影響がないものはそのまま。当然ながらcondaのパスは先に通しておく必要がある。
+
 ## Starshipも併せて設定（オプション）
 
 オプションとして、[starship](https://starship.rs/ja-JP/) も設定しておくと、gitの状態などが詳細にわかって便利。
