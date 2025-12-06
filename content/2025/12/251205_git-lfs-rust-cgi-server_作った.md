@@ -6,6 +6,7 @@ tags:
   - git-lfs
   - cgi
 ---
+作ったやつ↓。
 
 https://github.com/funatsufumiya/git-lfs-rust-cgi-server/
 
