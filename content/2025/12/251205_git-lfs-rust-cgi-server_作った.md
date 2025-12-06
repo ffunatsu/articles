@@ -1,3 +1,11 @@
+---
+title: 251205 git-lfs-rust-cgi-server 作った
+tags:
+  - rust
+  - git
+  - git-lfs
+  - cgi
+---
 
 https://github.com/funatsufumiya/git-lfs-rust-cgi-server/
 
