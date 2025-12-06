@@ -1,5 +1,5 @@
 ---
-title: 251205 git-lfs-rust-cgi-server 作った
+title: 251206 git-lfs-rust-cgi-server 作った
 tags:
   - rust
   - git
