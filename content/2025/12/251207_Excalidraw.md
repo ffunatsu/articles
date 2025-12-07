@@ -1,5 +1,10 @@
 ---
 title: 251207 Excalidraw / Meraid記法 / Skitch代替ソフト
+tags:
+  - heptabase
+  - markdown
+  - drawing
+  - notetaking
 ---
 
 [Heptabase](https://heptabase.com/)を一年間だけ年間契約していて、正直使ったのはのべ数週間から1ヶ月くらいですごくもったいなかったので、代替ツールをずっと探していた。
