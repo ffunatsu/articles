@@ -45,7 +45,7 @@ package main
 import "core:fmt"
 
 main :: proc() {
-    fmt.printf("hello from odin\n")
+    fmt.printf("hello from odin!\n")
 }
 ```
 
@@ -76,6 +76,7 @@ $ ls
 # hello-runtime-entry_unix.o                    hello-utf8.o
 
 $ ld.lld *.o ~/dev/musl/lib/libc.a ~/dev/musl/lib/crt1.o -o hello-odin-musl
+
 $ ./hello-odin-musl
 $ # hello from odin!
 ```
