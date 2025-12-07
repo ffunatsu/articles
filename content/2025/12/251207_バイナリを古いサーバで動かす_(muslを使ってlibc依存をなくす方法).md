@@ -6,7 +6,7 @@ tags:
   - musl
   - llvm
 ---
-[先日書いた記事](https://funatsufumiya.github.io/articles/2025/12/251206_git-lfs-rust-cgi-server_%E4%BD%9C%E3%81%A3%E3%81%9F)のなかで、古いレンタルサーバでRust等のビルド済みバイナリを動かすとき、Rust musl以外はGLIBCのバージョンが噛み合わずに動かないという話を書いた。かつ、muslであっても、 `/lib/ld-musl-x86_64.so.1` に動的リンクされるようになっていると、ルート権限のないレンタルサーバでは当然動かない。
+[先日書いた記事](https://funatsufumiya.github.io/articles/2025/12/251206_git-lfs-rust-cgi-server_%E4%BD%9C%E3%81%A3%E3%81%9F)のなかで、古いレンタルサーバでRust等のビルド済みバイナリを動かすとき、Rust musl以外はGLIBCのバージョンが噛み合わずに（ `libc` が動的リンクされているために）動かないという話を書いた。かつ、muslであっても、 `/lib/ld-musl-x86_64.so.1` に動的リンクされるようになっていると、ルート権限のないレンタルサーバでは当然動かない。
 
 先日は諦めてRustを使ったのだけれど、Odin言語で遊んでいたところ、以下の記事によって解決した。すごく嬉しい。
 
