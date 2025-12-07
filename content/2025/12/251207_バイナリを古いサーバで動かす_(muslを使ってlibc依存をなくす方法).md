@@ -27,7 +27,7 @@ https://gaultier.github.io/blog/odin_and_musl.html
 ※ 実行前に `sudo apt install llvm-dev` 等が必要。前記事中にあるようにLLVMではなくGNU GCCを使うようにもできるらしいが割愛。
 
 ```bash
-$ git clone --recurse --depth 1 https://git.musl-libc.org/git/musl
+$ git clone --recursive --depth 1 https://git.musl-libc.org/git/musl
 $ cd musl
 $ RANLIB=llvm-ranlib AR=llvm-ar CC=clang ./configure --disable-shared
 $ make -j 12
