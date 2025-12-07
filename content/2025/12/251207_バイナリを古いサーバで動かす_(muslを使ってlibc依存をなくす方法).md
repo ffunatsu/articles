@@ -45,7 +45,7 @@ package main
 import "core:fmt"
 
 main :: proc() {
-    fmt.printf("hello\n")
+    fmt.printf("hello from odin\n")
 }
 ```
 
@@ -76,6 +76,8 @@ $ ls
 # hello-runtime-entry_unix.o                    hello-utf8.o
 
 $ ld.lld *.o ~/dev/musl/lib/libc.a ~/dev/musl/lib/crt1.o -o hello-odin-musl
+$ ./hello-odin-musl
+$ # hello from odin!
 ```
 
 補足として、`ld.lld` は LLVMのリンカで、`sudo apt install lld` 等でインストールできる。ただ、LLVMである必要はないはず (GNUの普通の `ld` でも良いはず) だが、先の手順でLLVMで作っているので、GNUの場合はそちらもあわせたほうがいいのかもしれない。
