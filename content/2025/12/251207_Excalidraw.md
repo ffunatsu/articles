@@ -29,6 +29,6 @@ tags:
 
 Skitchは、自動でフォントに枠がついて目立つので、写真やスクショの上に書き込みを入れるときにすごくよくて、スマホアプリ系は似たようなものが多いので、デスクトップでもこれでバッチリっていうやつを来年こそは見つけたい。
 
-【追記】[pinkarrows]([pinkarrows.app](https://pinkarrows.app)) というものを見つけた。これでいいや。
+【追記】[pinkarrows](https://pinkarrows.app) というものを見つけた。これでいいや。
 
 https://github.com/robbalian/pinkarrows 
