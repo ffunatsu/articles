@@ -24,7 +24,7 @@ https://gaultier.github.io/blog/odin_and_musl.html
 
 [先の記事](https://gaultier.github.io/blog/odin_and_musl.html)中では arm ターゲットになってしまっているので、x86_64ターゲット、つまり非クロスコンパイルの場合、以下のようになる。
 
-なお、実行前に `sudo apt install llvm-dev` 等が必要。前記事中にあるようにLLVMではなくGNU GCCを使うようにもできるらしいが割愛。
+※ 実行前に `sudo apt install llvm-dev` 等が必要。前記事中にあるようにLLVMではなくGNU GCCを使うようにもできるらしいが割愛。
 
 ```bash
 $ git clone --recurse --depth 1 https://git.musl-libc.org/git/musl
