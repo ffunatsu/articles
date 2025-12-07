@@ -6,6 +6,7 @@ tags:
   - drawing
   - notetaking
 ---
+## Excalidraw
 
 [Heptabase](https://heptabase.com/)を一年間だけ年間契約していて、正直使ったのはのべ数週間から1ヶ月くらいですごくもったいなかったので、代替ツールをずっと探していた。
 
