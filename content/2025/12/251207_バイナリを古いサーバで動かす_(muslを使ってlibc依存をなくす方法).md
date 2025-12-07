@@ -22,7 +22,7 @@ https://gaultier.github.io/blog/odin_and_musl.html
 
 ## muslで lib/crt1.o と lib/libc.a を作る手順
 
-記事中では arm ターゲットになってしまっているので、x86_64ターゲット、つまり非クロスコンパイルの場合、以下のようになる。
+[先の記事](https://gaultier.github.io/blog/odin_and_musl.html)中では arm ターゲットになってしまっているので、x86_64ターゲット、つまり非クロスコンパイルの場合、以下のようになる。
 
 なお、実行前に `sudo apt install llvm-dev` 等が必要。前記事中にあるようにLLVMではなくGNU GCCを使うようにもできるらしいが割愛。
 
