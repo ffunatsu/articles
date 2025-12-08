@@ -3,7 +3,7 @@ title: 251208 odin-osc
 tags:
   - odin
 ---
-Odin言語を始めて数日だけど、OSCのライブラリが（OSC Bundleまで扱えて送受信もできるやつが）なさそうだったので、作った。
+Odin言語を始めて数日（まだ2, 3日くらい）だけど、OSCのライブラリが（OSC Bundleまで扱えて送受信もできるやつが）なさそうだったので、作った。
 
 https://github.com/funatsufumiya/odin-osc
 
