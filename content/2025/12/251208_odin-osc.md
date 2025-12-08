@@ -21,7 +21,7 @@ https://github.com/funatsufumiya/odin-osc
 自分はこの辺のノウハウがまだ本当に初心者なので、今から慣れていくのだろうと思う。ただ、Tracking Allocator のおかげで、今のところメモリリークなくライブラリを書けているのは素晴らしいと思う。
 ## オーバーロードと明示的関数
 
-Zigの場合は `deinit` などの共通の名前でデストラクタを書く文化があるのだけど、Odinの場合はいわゆるオーバロードできるのは[明示的オーバーロード](https://odin-lang.org/docs/overview/#explicit-procedure-overloading)に限られるので、delete系は正直再定義できなくて、名前が乱立する。
+Zigの場合は `deinit` などの共通の名前でデストラクタを書く文化があるのだけど、Odinの場合はメソッドがないし、いわゆる関数オーバロードできるのは[明示的オーバーロード](https://odin-lang.org/docs/overview/#explicit-procedure-overloading)に限られるので、delete系は正直再定義できなくて、名前が乱立する。
 
 こればかりはもうC言語/Go言語の宿命というか、明示的にすべてがわかるのが良いという哲学なので、仕方がないと割り切るしかない。他のライブラリが実際どうしているかは今はわからないけれど、コアライブラリが使っている名前付けルールを尊重しながら作ったりして誤魔化す。
 
