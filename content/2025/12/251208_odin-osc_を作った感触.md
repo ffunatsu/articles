@@ -1,5 +1,5 @@
 ---
-title: 251208 odin-osc
+title: 251208 odin-osc を作った感触
 tags:
   - odin
 ---
