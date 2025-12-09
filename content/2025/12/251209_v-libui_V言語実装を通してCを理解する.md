@@ -11,7 +11,7 @@ https://github.com/funatsufumiya/v-libui/
 ベースにしたのは、libui-ngのexamples。
 
 https://github.com/funatsufumiya/libui_examples
-## 作った動機と、V言語実装を通してCを理解する過程の話
+## 作った動機と、V言語実装を通してCを理解する過程の話（ロゼッタストーンとしてのC2V）
 
 本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたいのが最終目標。
 
