@@ -17,7 +17,7 @@ https://github.com/funatsufumiya/libui_examples
 
 が、いきなりOdinでbindgenするとCヘッダーを書き直す過程で苦労しそうなのが目に見えているので、まずはV言語のC2Vトランスレータ（`v translate` や `v translate wrapper`）に頼ってみることにした。
 
-[trufae/v-uing](https://github.com/trufae/v-uing)というものが元々あったのだけれど、動かなかったので、しぶしぶ自分で書いた。
+既存ライブラリとしては、 [trufae/v-uing](https://github.com/trufae/v-uing)というものが元々あったのだけれど、動かなかったので、しぶしぶ自分で書いた。
 
 V言語のいいところは、**出力されるC言語もきちんと読めるものであるということ**。これがNimとの大きな違いで、Nimはぶっちゃけ[C/C++を新しいアセンブリ環境くらいにしか見ていない](https://slides.com/onqtam/hello_nim) （注: おそらく個人差はあるが、トランスレータの出力結果としては事実）ということで、大きなスタンスの違いが出ている部分。
 
