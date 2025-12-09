@@ -13,7 +13,7 @@ https://github.com/funatsufumiya/v-libui/
 https://github.com/funatsufumiya/libui_examples
 ## 作った動機と、V言語実装を通してCを理解する過程の話
 
-本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたい。
+本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたいのが最終目標。
 
 が、いきなりOdinでbindgenするとCヘッダーを書き直す過程で苦労しそうなのが目に見えているので、まずはV言語のC2Vトランスレータ（`v translate` や `v translate wrapper`）に頼ってみることにした。
 
