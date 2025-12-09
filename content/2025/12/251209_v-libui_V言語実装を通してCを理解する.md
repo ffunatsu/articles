@@ -15,7 +15,7 @@ https://github.com/funatsufumiya/libui_examples
 
 本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたい。
 
-が、いきなりOdinでbindgenするとCヘッダーを書き直す過程で苦労しそうなのが目に見えているので、まずはV言語のC2Vトランスレータに頼ってみることにした。
+が、いきなりOdinでbindgenするとCヘッダーを書き直す過程で苦労しそうなのが目に見えているので、まずはV言語のC2Vトランスレータ（`v translate` や `v translate wrapper`）に頼ってみることにした。
 
 [trufae/v-uing](https://github.com/trufae/v-uing)というものが元々あったのだけれど、動かなかったので、しぶしぶ自分で書いた。
 
