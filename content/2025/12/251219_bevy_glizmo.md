@@ -3,7 +3,7 @@ tags:
   - bevy
   - this-week-in-bevy
 ---
-今日の[This Week in Bevy](https://www.youtube.com/watch?v=g8t-LRr3M2A&t=342s)で取り上げられていたやつ。GizmoをECS気にすることなく使えるようにするやつで、シンプルに便利そう。
+今日の[This Week in Bevy](https://www.youtube.com/watch?v=g8t-LRr3M2A&t=342s)で取り上げられていたやつ。GizmoをECS気にすることなく使えるようにするやつで、シンプルに便利そう。でも、Bevy自体についてるGizmoもそれほど手間ではない気はするけど、何らかの理由でECSへの依存をなくしたかったということなのかな？
 
 https://github.com/atlv24/glizmo
 
