@@ -3,7 +3,7 @@ tags:
   - bevy
   - this-week-in-bevy
 ---
-今日の[This Week in Bevy](https://www.youtube.com/watch?v=g8t-LRr3M2A&t=342s)で取り上げられていたやつ。GizmoをECS気にすることなく使えるようにするやつで、シンプルに便利そう。でも、Bevy自体についてるGizmoもそれほど手間ではない気はするけど、何らかの理由でECSへの依存をなくしたかったということなのかな？
+今日の[This Week in Bevy](https://www.youtube.com/watch?v=g8t-LRr3M2A&t=342s)で取り上げられていたやつ。GizmoをECS気にすることなく使えるようにするやつで、シンプルに便利そう。
 
 https://github.com/atlv24/glizmo
 
@@ -22,4 +22,6 @@ fn draw() {
 }
 ```
 
-ふと思ったけど、[odin-cc](https://github.com/cc4v/odin-cc)等のいわゆる即時描画系も、こうやって使えるとBevyにも組み込めそうで、Bevy上の即時描画をいろいろ調べてみてもいいかなという気がしてきた。
+でも、Bevy自体についてるGizmoもそれほど手間ではない気はするけど、何らかの理由でECSへの依存をなくしたかったということなのかな？ECSをいじることがないので、デバッグ等簡単にできて、すぐコメントアウトできるというのが強みかもしれない。
+
+コードスタイルをふと思ったけど、[odin-cc](https://github.com/cc4v/odin-cc)等のいわゆる即時描画系も、こうやって使えるとBevyにも組み込めそうで、Bevy上の即時描画をいろいろ調べてみてもいいかなという気がしてきた。
