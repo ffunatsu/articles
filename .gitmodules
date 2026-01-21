@@ -1,0 +1,3 @@
+[submodule "content/images"]
+	path = content/images
+	url = https://github.com/funatsufumiya/articles-imgs
