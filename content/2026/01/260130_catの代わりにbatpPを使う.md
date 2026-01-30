@@ -3,7 +3,7 @@ title: 260130 catの代わりに bat -pP を使う
 ---
 Windowsのcatは何かと使いづらい。UTF-8なのかShift JISなのかで挙動が変わるし、ターミナルの文字エンコーディングに左右される。
 
-[bat](https://github.com/sharkdp/bat)を使うと、そうしたことは綺麗に解決する。
+[bat](https://github.com/sharkdp/bat)を使うと、そうしたことは綺麗に解決する。 `cargo install bat` でインストールできるので手軽に使えるし、[Releases](https://github.com/sharkdp/bat/releases)よりバイナリを配置してインストールもできる。
 
 https://github.com/sharkdp/bat
 
