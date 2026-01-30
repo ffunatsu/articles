@@ -1,5 +1,9 @@
 ---
 title: 260130 catの代わりに bat -pP を使う
+tags:
+  - シェル
+  - windows
+  - powershell
 ---
 Windowsのcatは何かと使いづらい。UTF-8なのかShift JISなのかで挙動が変わるし、ターミナルの文字エンコーディングに左右される。
 
