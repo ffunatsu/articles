@@ -2,6 +2,7 @@
 tags:
   - jank
   - msys2
+title: 260202 Jank on Windows MSYS2 に進展あり。ついに動作。
 ---
 https://github.com/jank-lang/jank/issues/326#issuecomment-3832145310
 
