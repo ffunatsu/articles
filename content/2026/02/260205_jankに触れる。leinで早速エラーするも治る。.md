@@ -139,3 +139,5 @@ int main(int argc, char *argv[]) {
 あくまで元のleinテンプレートをいじらずに動かす苦肉の策なので、本当はテンプレート ([jank/lein-jank](https://github.com/jank-lang/jank/tree/main/lein-jank)) の下記の該当部から、`run-main` だけ (?) を書き換えたフォークを作って使うのが一番良いのかもしれない。
 
 https://github.com/jank-lang/jank/blob/main/lein-jank/src/leiningen/jank.clj
+
+どこかで暇を見てフォーク作ってClojarsに登録して
