@@ -53,7 +53,7 @@ for arg in "$@"; do
     fi
 done
  
-# run-main, compile を探して物理的に削除
+# run-main, compile を探して削除
 special_cmds=("run-main" "compile")
 special_idx=-1
 special_cmd=""
@@ -67,7 +67,7 @@ for idx in "${!pre_ddash[@]}"; do
     done
 done
 if [[ $special_idx -ge 0 ]]; then
-    # 配列から物理的に削除
+    # 配列から削除
     tmp=()
     for idx in "${!pre_ddash[@]}"; do
         if [[ $idx -ne $special_idx ]]; then
