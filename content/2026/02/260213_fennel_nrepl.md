@@ -35,7 +35,9 @@ https://github.com/funatsufumiya/luasocket-test
 
 ## 余談: taskkill と Ctrl-C
 
-最後に余談として、今回一番詰まったのは実は taskkill 関係だったりする。というのも、WindowsのCtrl-Cは、MacやLinuxのそれと同じようには動かず、バックグラウンドタスクが kill されないことが多い。これはPython等を開発しているときも多いのだけれど、結局別窓から、 `taskkill /f /im luajit.exe` することになる。
+最後に余談として、今回一番詰まったのは実は taskkill 関係だったりする。というのも、WindowsのCtrl-Cは、MacやLinuxのそれと同じようには動かず、バックグラウンドタスクが kill されないことが多い。そうすると不思議な挙動が起こり、TCPポート自体はListenできるのに、実際にメッセージを受信すると interrupt されて強制終了されるなどの妙な挙動を起こす。結果、別タスクが起動しっぱなしであると気づくのに半日かかったりした。
+
+これはPython等を開発しているときも多いのだけれど、結局別窓から、 `taskkill /f /im luajit.exe` することになる。
 
 なんで別窓からかというと、本窓で taskkill すると、そのあとにバックグラウンドタスクを終了させるかどうか Y/N で聞かれたときに、妙な挙動をしてしまって窓が使えなくなったりする。
 
