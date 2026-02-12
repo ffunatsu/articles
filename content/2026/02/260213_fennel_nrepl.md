@@ -32,3 +32,11 @@ https://github.com/funatsufumiya/luasocket-test
 これが本題なのだけど、nREPLの詳細を知りたかった。というのも、jank言語用のnREPLがまだ存在していないっぽくて、作ろうと思ったのだけれど、自分はnREPLが内部で何を通信しているのか知らなかったので、LLVMとかに近そうなLua実装を見れば何かわかるかなと思ったら動かなくて、結局、Python用のClojure方言であるhy用の[hy-nrepl](https://github.com/masatoi/hy-nrepl)のdebugモードに助けられたり、[python-nrepl-client](https://github.com/cemerick/nrepl-python-client) とかをテストに使ったりして、いろいろと遠回りにはなった。
 
 でも結果としてnREPLはよくわかったし、Lua版も一応体裁上は動くようになったので、これで本格的にjank用のnREPLが作れるようになったかなという気がする。
+
+## 余談: taskkill と Ctrl-C
+
+最後に余談として、今回一番詰まったのは実は taskkill 関係だったりする。というのも、WindowsのCtrl-Cは、MacやLinuxのそれと同じようには動かず、バックグラウンドタスクが kill されないことが多い。これはPython等を開発しているときも多いのだけれど、結局別窓から、 `taskkill /f /im luajit.exe` することになる。
+
+なんで別窓からかというと、本窓で taskkill すると、そのあとにバックグラウンドタスクを終了させるかどうか Y/N で聞かれたときに、妙な挙動をしてしまって窓が使えなくなったりする。
+
+本当はこの辺の完成度自体がWindows本体により改良されたらなと思うのだけれど、望み薄なので `taskkill /f /im luajit.exe` や `taskkill /f /im python.exe` 等は空で覚えとくのがWindowsシェルの嗜みなのかもしれない。
