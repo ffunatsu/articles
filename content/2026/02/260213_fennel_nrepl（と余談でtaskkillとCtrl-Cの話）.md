@@ -3,6 +3,8 @@ tags:
   - fennel
   - lua
   - nrepl
+aliases:
+  - 260213_fennel_nrepl （と余談でtaskkkillとCtrl-Cの話）
 ---
 [JeeJah](https://git.sr.ht/~technomancy/jeejah)という fennel (lua上のClojure方言) 用のnREPLがあるのだけれど、WindowsのVSCode nREPL環境でうまく動いていなかったので、フォークして動くようにした。
 
