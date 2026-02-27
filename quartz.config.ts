@@ -26,7 +26,8 @@ const config: QuartzConfig = {
         // body: "Source Sans Pro",
         body: "Noto Sans JP",
         // code: "IBM Plex Mono",
-        code: "Source Han Code JP",
+        // code: "Source Han Code JP",
+        code: "M PLUS 1 Code"
       },
       colors: {
         lightMode: {
