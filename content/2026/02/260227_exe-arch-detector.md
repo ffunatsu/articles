@@ -1,3 +1,8 @@
+---
+tags:
+  - windows
+  - windows-arm
+---
 
 https://github.com/funatsufumiya/exe-arch-detector
 
