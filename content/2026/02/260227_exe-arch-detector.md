@@ -24,7 +24,16 @@ https://stackoverflow.com/questions/54834984/how-do-i-determine-the-architecture
 
 ```bash
 $ exe-arch-detector.exe projectGenerator.exe
-Machine: 0x014c
-IMAGE_FILE_MACHINE_I386
-Intel 386
+# Machine: 0x014c
+# IMAGE_FILE_MACHINE_I386
+# Intel 386
+```
+
+なお先ほど判定に失敗していた lovr をこれでやり直すと以下のようにちゃんと判定できる。
+
+```bash
+$ exe-arch-detector.exe C:\Users\fu\apps\lovr\lovr.exe
+# Machine: 0x8664
+# IMAGE_FILE_MACHINE_AMD64
+# x64
 ```
