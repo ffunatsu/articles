@@ -7,11 +7,11 @@ https://github.com/funatsufumiya/exe-arch-detector
 
 Windows ARM、いわゆるSnapdragon XのノートPCをここ半年ほど愛用しているのだけれど、exeが x86_64 用なのか ARM64 用なのかの判定はすごく大事になる。これをしないとdllの依存関係などがうまく解決できない。
 
-簡単な方法としては git bash 上で file コマンドを使う方法がよく出てくるものの、例えば普通のexeに画像ファイルなどを埋め込んだ lovr などのいわゆるzip形式のexeはうまく判定されずzipであると表示されてしまう。
+簡単な方法としては git bash 上で file コマンドを使う方法がよく出てくるものの、例えば普通のexeに画像ファイルなどを埋め込んだ lovr などの一部のexeはうまく判定されずzipであると表示されてしまう。
 
 ```bash
 $ file "/c/Users/fu/apps/lovr/lovr"
-/c/Users/fu/apps/lovr/lovr: Zip archive, with extra data prepended
+# /c/Users/fu/apps/lovr/lovr: Zip archive, with extra data prepended
 ```
 
 そこで、[StackOverflowの回答](https://stackoverflow.com/questions/54834984/how-do-i-determine-the-architecture-of-an-executable-binary-on-windows-10/54835107#54835107)をもとに、使いやすいよう少しコードを修正した [`exe-arch-detector`](https://github.com/funatsufumiya/exe-arch-detector) を作った。GitHub上にexeを同梱しているので、ダウンロードして実行すれば使える。Releasesのやつも中身は同じ。
