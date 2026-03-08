@@ -1,5 +1,5 @@
 ---
-title: Home (About)
+title: fu-log | Home (About)
 ---
 
 [Quartz4](https://github.com/jackyzha0/quartz)を利用した、GitHub Pagesでホストしている個人ブログです（[ソースコードはこちら](https://github.com/funatsufumiya/articles)）。
