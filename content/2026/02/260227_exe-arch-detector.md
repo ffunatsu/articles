@@ -5,6 +5,8 @@ tags:
 ---
 https://github.com/funatsufumiya/exe-arch-detector
 
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/exe-arch-detector" ></iframe>
+
 Windows ARM、いわゆるSnapdragon XのノートPCをここ半年ほど愛用しているのだけれど、exeが x86_64 用なのか ARM64 用なのかの判定はすごく大事になる。これをしないとdllの依存関係などがうまく解決できない。
 
 簡単な方法としては git bash 上で file コマンドを使う方法がよく出てくるものの、例えば普通のexeに画像ファイルなどを埋め込んだ lovr などの一部のexeはうまく判定されずzipであると表示されてしまう。

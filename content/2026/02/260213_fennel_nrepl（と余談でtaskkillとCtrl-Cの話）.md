@@ -10,6 +10,8 @@ aliases:
 
 https://github.com/funatsufumiya/jeejah
 
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/jeejah" ></iframe>
+
 自分はLuaJITで使っているのだけれど、READMEにあるように [luasocket](https://lunarmodules.github.io/luasocket/) のインストールが必要で、これがなかなか厄介だったりする。
 
 ## LuaJIT用のluasocketインストール

@@ -8,6 +8,8 @@ tags:
 
 https://github.com/funatsufumiya/git_gdrive_interop_without_lfs
 
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/git_gdrive_interop_without_lfs" ></iframe>
+
 Git LFS、正直いって諸刃の剣で、多くの仕事で、大きなバイナリファイルを完全に歴史記録する必要性がないことが多い。
 
 ゲームのアセットなどは、制作者が自分でバージョン管理（数字や日付を降ったり）していることが多くて、それに慣れているアーティストが多くいる。そこで、アセットなどはGit管理しないと割り切っていることも多い。

@@ -7,6 +7,8 @@ Odin言語を始めて数日（まだ2, 3日くらい）だけど、OSCのライ
 
 https://github.com/funatsufumiya/odin-osc
 
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/odin-osc" ></iframe>
+
 これを作ってみて、改めてOdinはすごく良い言語だというのを実感した。
 ## メモリリークとの戦い
 
