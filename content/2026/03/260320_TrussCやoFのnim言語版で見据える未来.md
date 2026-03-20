@@ -34,7 +34,11 @@ https://github.com/funatsufumiya/of-nim
 
 そうすることで、ライトに書きながらも自然と実行速度も最適化されるというnimの利点が最大限生かされ、UnityやUE、Godotに近い感触に近づくはずと思うし、[NimForUE](https://github.com/jmgomez/NimForUE)や[gdext-nim](https://github.com/godot-nim/gdext-nim)、[UnLua](https://github.com/Tencent/UnLua)などが目指す理想像もきっとそういうところにあるのだと思う。
 
-自分もホントはLuaでそれを目指したかったけど、やっぱ（普通の）GC言語ではちょっと限界があったし、ポインタ等が触れてORCのようなリアルタイム特化GCのあるnimならではの強みはこういう分野にあると改めて思う。
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=jmgomez/NimForUE" ></iframe>
+
+<img alt="nim-ue-logo" src="https://github.com/jmgomez/NimForUE/raw/devel/logo.png" width="300px">
+
+自分もホントはLuaとLove2DやLoVRでそれを目指したかったけど、やっぱ（普通の）GC言語ではちょっと限界があったし、ポインタ等が触れてORCのようなリアルタイム特化GCのあるnimならではの強みはこういう分野にあると改めて思う。
 
 [nelua](https://nelua.io/)もゆくゆくはこういう分野に使われていくのだろうけれど、まだ少し時期尚早っぽいので様子見かな。jankも同じく。
 
