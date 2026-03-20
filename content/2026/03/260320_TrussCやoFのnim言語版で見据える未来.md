@@ -4,7 +4,7 @@ tags:
   - openFrameworks
   - trussc
 ---
-![trussc-nim-logo](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/trussc-nim-logo.png)
+![trussc-nim-logo](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/trussc-nim-logo2.png)
 
 https://github.com/funatsufumiya/TrussC-nim
 
