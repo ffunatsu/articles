@@ -10,6 +10,15 @@ tags:
 https://book.jank-lang.org/getting-started/02-hello-world.html
 
 leiningen 等は特に問題なく動作していて、それだけでもすごいなと思って、`cpp/raw` が動いているのがすごく感動。JITでC++が動くというのは [CL-CXX-JIT](https://github.com/Islam0mar/CL-CXX-JIT) 以来なので、とても楽しい。型とか普通に解決して利用できているのがなんとも不思議でならない。
+
+## 【追記 3/21】以下は古い情報となりました
+
+https://github.com/ikappaki/jank-win
+
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=ikappaki/jank-win" ></iframe>
+
+最新のjank-winでは、インストール方法もprebuiltを自動アップデートする方法に刷新され、以下の問題も全く起こらなくなりました。したがって、以下はあくまで2026/02/05時点ではこうだったよという古い情報です。
+
 ## leinからdllを呼び出すとき、エラーが発生する。
 
 で、少し詰まっているのが https://book.jank-lang.org/cpp-interop/native-libs.html でleinからdllを呼び出すところ。MSYS2では拡張子を `.so` ではなく `.dll` を使う点にも注意が必要だけれど、`jank` コマンドから例えば `native-lib` にある `libcompress.dll` を呼び出すには `jank -lcompress -I ./native-lib -L ./native-lib run src/native_lib_tutorial/main.jank` などとすればOKなのだけれど、Getting Startedによると
