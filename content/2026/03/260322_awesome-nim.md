@@ -11,6 +11,8 @@ title: 260322 awesome-nim がすごい
 
 もちろん、ホスト言語はnim、スクリプト言語もnim (script) という部分のシームレスさはあるけれども、[AngelScript](https://www.angelcode.com/angelscript/)等を利用すればそれはC++でも実現できる。もちろん[Sol2](https://github.com/ThePhd/sol2)等ほどの埋め込みのしやすさはあるかは微妙だろうけれど、nimscript自体もJITでも何でもなく動作速度の問題等あり、nimに対して制約も大きいことから、あまりこれくらいでnimの強みが出ているとは思えない。
 
+## 10年ぶりくらいにawesome-nimにめをとおｓ
+
 そこで、nimならどんなことができるのかと改めて[awesome-nim](https://github.com/ringabout/awesome-nim)を下手すると10年ぶりくらいに読み解いてみたら、だいぶ進化していて驚いた。さすが1.0に到達し、さらに2.0に到達した言語だけはあると思った。
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=ringabout/awesome-nim" ></iframe>
@@ -87,4 +89,4 @@ V言語もCトランスパイラだけれど、方向性としては真逆で、
 
 たぶん今後も、いろんな言語を探求する旅はずっと続く。葬送のフリーレンではないけれど、役に立たない民間魔法のようなマイナー言語をあれこれつまみ食いしては、時々そのエッセンスを活かしてDSLという魔法として実践に活用していく、そんな未来があるのかもしれない。
 
-nimも自分も、またさらに10年後何をしているかが楽しみだ。
+nimも自分も、またさらに10年後に何をしているかが楽しみだ。
