@@ -1,0 +1,86 @@
+---
+tags:
+  - nim
+title: 260322 awesome-nim がすごい
+---
+[昨日書いた記事](./260320_TrussCやoFのnim言語版で見据える未来) で、nimのフレームワークを2つ作った話を書いたのだけれど、その2種のフレームワークで少しずつnimらしさを出せるようなexampleを少しずつ試していて、[nimscripter](https://github.com/beef331/nimscripter)を使った[サンプル](https://github.com/funatsufumiya/TrussC-nim/blob/main/examples/nimscripter_reload_test.nim)をあげたりしている。
+
+![nimscripter_reload_test image](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/reload.png)
+
+これくらいだと正直LuaをC++に埋め込んだのとあんまり大差なくて、Rを押すとスクリプトがリロードされるとか、ファイルの更新を検知してリロードするくらいでは、それほどnimらしさは出ていないかもしれない。
+
+もちろん、ホスト言語はnim、スクリプト言語もnim (script) という部分のシームレスさはあるけれども、[AngelScript](https://www.angelcode.com/angelscript/)等を利用すればそれはC++でも実現できる。もちろん[Sol2](https://github.com/ThePhd/sol2)等ほどの埋め込みのしやすさはあるかは微妙だろうけれど、nimscript自体もJITでも何でもなく動作速度の問題等あり、nimに対して制約も大きいことから、あまりこれくらいでnimの強みが出ているとは思えない。
+
+そこで、nimならどんなことができるのかと改めて[awesome-nim](https://github.com/ringabout/awesome-nim)を下手すると10年ぶりくらいに読み解いてみたら、だいぶ進化していて驚いた。さすが1.0に到達し、さらに2.0に到達した言語だけはあると思った。
+
+<iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=ringabout/awesome-nim" ></iframe>
+
+特にnimらしさがあるなと思ったのは、まだ自分も全部を読み込んでいるわけではないけれど、[nimpylib](https://github.com/nimpylib/nimpylib) はPythonの文法を def や class も含めて、stdlib丸ごとnimに持ち込んでいるプロジェクトで、しかもこれ系のライブラリが一つじゃなく存在する。マクロによって文法ごと変えてしまうのは、いかにもnimらしいという感じがするし、トランスパイラ型Lispの皮を被った変態言語の片鱗を垣間見れる。
+
+以下、Pythonとしてシンタックスハイライトしているけれど、nimの内部DSLとなっている。末恐ろしい。
+
+```python
+class Example(object):  # Mimic simple Python "classes".
+  """Example class with Python-ish Nim syntax!."""
+  start: int
+  stop: int
+  step: int
+  def init(self, start, stop, step=1):
+    self.start = start
+    self.stop = stop
+    self.step = step
+
+  def stopit(self, argument):
+    """Example function with Python-ish Nim syntax."""
+    self.stop = argument
+    return self.stop
+
+def exa():
+  e = Example(5, 3)
+  print(e.stopit(5))
+
+exa()
+```
+
+[weave](https://github.com/mratsim/weave) も似たような部分があって、並列処理をstate-of-the-artで実行できると謳っているが、文法がすごい。parallelForという文法がそもそもnimにあったんじゃないかくらい溶け込んでいる。
+
+```nim
+parallelFor j in 0 ..< N:
+    captures: {M, N, bufIn, bufOut}
+    parallelFor i in 0 ..< M:
+      captures: {j, M, N, bufIn, bufOut}
+      bufOut[j*M+i] = bufIn[i*N+j]
+```
+
+[razaberi](https://github.com/Beglaa/razaberi) や[patty](https://github.com/andreaferretti/patty)によるパターンマッチも同じくらいnimと溶け込んでいて、pattyの場合以下のようなパターンマッチが可能。ここまでくると、`match` が予約語ではなくて良かったなと思うし、`match` はこのために残されていたんじゃないかくらいに思えてくる。
+
+```nim
+match makeRect(3, 4):
+  Circle(radius):
+    echo "it is a circle of radius ", radius
+  Rectangle(width, height):
+    echo "it is a rectangle of height ", height
+```
+
+DSLとして個人的に感動したのは [shell](https://github.com/Vindaar/shell) で、以下のようにあたかもシェルスクリプト自体なんじゃないかと思えるものをnimにDSLとして記載することができる。
+
+```nim
+shell:
+  touch foo
+  mv foo bar
+  rm bar
+```
+
+もうここまでくると、`nim` としてシンタックスハイライトをかけても無意味なくらいに改変されていて、以下のように変数内包記法ですら改変されている。やっぱnimはPython風の記法という皮を被ったただのLispなんだろうなと思えてくる。
+
+```nim
+let fname = "myimage"
+shell:
+  convert ($fname).png ($fname).jpg
+```
+
+ここまでLispっぽいASTの改変が行えて、それでいて動的ではない静的なトランスパイラで、型付きで成功している言語は、実はnim以外にはあまりないんじゃないかと思えてくる。
+
+V言語もCトランスパイラだけれど、方向性としては真逆で、V言語はGo言語ゆずりのシンプルさを謳っていて、nimはとにかく自由なRubyっぽい風土と思想を持っている。
+
+そう思うと、やっぱり言語選びというのは、哲学と直結するのだなと思うし、自分のようにいろんな言語や環境を旅するように渡り歩いている人間としては、Lisp的なDSLを自由に内包してあれこれ変幻自在にあたかも別言語のように振る舞える言語をメインに選ぶというのは、ある意味で必然性があったのかもしれない。
