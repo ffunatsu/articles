@@ -3,6 +3,8 @@ tags:
   - nim
 title: 260322 awesome-nim がすごい
 ---
+## awesome-nimを見ようと思ったきっかけ：nimらしさの探求
+
 [昨日書いた記事](./260320_TrussCやoFのnim言語版で見据える未来) で、nimのフレームワークを2つ作った話を書いたのだけれど、その2種のフレームワークで少しずつnimらしさを出せるようなexampleを少しずつ試していて、[nimscripter](https://github.com/beef331/nimscripter)を使った[サンプル](https://github.com/funatsufumiya/TrussC-nim/blob/main/examples/nimscripter_reload_test.nim)をあげたりしている。
 
 ![nimscripter_reload_test image](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/reload.png)
@@ -11,9 +13,11 @@ title: 260322 awesome-nim がすごい
 
 もちろん、ホスト言語はnim、スクリプト言語もnim (script) という部分のシームレスさはあるけれども、[AngelScript](https://www.angelcode.com/angelscript/)等を利用すればそれはC++でも実現できる。もちろん[Sol2](https://github.com/ThePhd/sol2)等ほどの埋め込みのしやすさはあるかは微妙だろうけれど、nimscript自体もJITでも何でもなく動作速度の問題等あり、nimに対して制約も大きいことから、あまりこれくらいでnimの強みが出ているとは思えない。
 
+やっぱり、わざわざC++ではなくそのトランスパイラを使うなら、トランスパイラを使う理由になるくらいのものがほしい。ORCとか画期的な機能がついていることは肌感覚では知っていても、やっぱり目に見える実感があるくらいの大きなメリットがほしくなる。
+
 ## 10年ぶりくらいにawesome-nimに目を通す
 
-そこで、nimならどんなことができるのかと改めて[awesome-nim](https://github.com/ringabout/awesome-nim)を下手すると10年ぶりくらいに読み解いてみたら、だいぶ進化していて驚いた。さすが1.0に到達し、さらに2.0に到達した言語だけはあると思った。
+そこで、nimならどんなことができるのかと改めて[awesome-nim](https://github.com/ringabout/awesome-nim)を、下手すると10年ぶりくらいに読み解いてみたら、だいぶ進化していて驚いた。さすが1.0に到達し、さらに2.0に到達した言語だけはあると思った。
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=ringabout/awesome-nim" ></iframe>
 
