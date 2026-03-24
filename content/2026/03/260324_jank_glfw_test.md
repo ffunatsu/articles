@@ -15,7 +15,7 @@ https://github.com/funatsufumiya/jank-glfw-test/
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/jank-glfw-test" ></iframe>
 
-stb_imageはClojurians Slackで報告があがっているように妙なエラーが出ていて、工夫をしないと動かなかったけれど、一応無事動いた。
+stb_imageのほうはClojurians Slackで報告があがっているように妙なエラーが出ていて、工夫をしないと動かなかったけれど、一応無事動いた。
 
 GLFWの方はまぁ普通で、とはいえOpenGLのウィンドウが出るとやっぱちょっと感動した感じはある。あとこれが普通にWin/Mac/Linuxでクロスプラットフォームで動いていることは、C++では当たり前なのだけれどjankがそうであることにちょっと感激してしまう。
 
