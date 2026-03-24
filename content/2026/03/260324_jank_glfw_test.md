@@ -5,6 +5,8 @@ tags:
 ---
 Clojurians Slackを毎日眺めていると、jankが意外に活発に開発されてエラー報告も積極的になされていて、自分も触発されて少し使ってみた。
 
+stb_imageについてはClojurians Slackで上がっていたエラー報告の検証用、GLFWはシンプルにOpenGLでウィンドウ出して遊びたかった。
+
 https://github.com/funatsufumiya/jank-stb_image-test/tree/dev
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/jank-stb_image-test" ></iframe>
