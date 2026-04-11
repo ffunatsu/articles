@@ -1,5 +1,8 @@
 ---
 title: 260411 Love2D-GVPlayerとLove2D-NDIのGC圧迫を修正
+tags:
+  - love2d
+  - lua
 ---
 https://github.com/funatsufumiya/love2d_gv_video_player
 
