@@ -9,7 +9,7 @@ https://terasakisatoshi.github.io/MathSeminar.jl/slideshow/binarybuilder/build/
 
 <iframe width="612" height="426" scrolling="no" frameborder="0" src="https://terasakisatoshi.github.io/MathSeminar.jl/slideshow/binarybuilder/build/"></iframe>
 
-JuliaのDLL管理 (JLLについて) は、上のごまふあざらしさんのスライドに綺麗にまとまっているので、現段階でこれ以上情報を持っているわけではないのだけれど、自分は純粋に「[ユグドラシル（世界樹）](https://github.com/JuliaPackaging/Yggdrasil))」の思想にちょっと感動した。
+JuliaのDLL管理 (JLLについて) は、上のごまふあざらしさんのスライドに綺麗にまとまっているので、現段階でこれ以上情報を持っているわけではないのだけれど、自分は純粋に「[ユグドラシル（世界樹）](https://github.com/JuliaPackaging/Yggdrasil)」の思想にちょっと感動した。
 
 https://github.com/JuliaPackaging/Yggdrasil
 
