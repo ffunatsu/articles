@@ -5,7 +5,7 @@ tags:
 ---
 本当はBluskyに書こうと思ったけれど、たまたま障害で何も書けないので、とりあえずブログに残そう。
 
-以下、libui-ngをJLLとしてパッケージングしようとした途中経過。
+以下、libui-ngをJLLとしてパッケージングしようとした途中経過。`build_tarballs.jl`。
 
 https://gist.github.com/funatsufumiya/f4534e38b9de47c4c37ff02e11955a92
 
