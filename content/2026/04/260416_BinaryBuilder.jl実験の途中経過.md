@@ -3,8 +3,6 @@ title: 260416_BinaryBuilder.jl 実験の途中経過
 tags:
   - julia
 ---
-本当はBluskyに書こうと思ったけれど、たまたま障害で何も書けないので、とりあえずブログに残そう。
-
 以下、[libui-ng](https://github.com/libui-ng/libui-ng)をJLLとしてパッケージングしようとした途中経過。`build_tarballs.jl`。
 
 https://gist.github.com/funatsufumiya/f4534e38b9de47c4c37ff02e11955a92
