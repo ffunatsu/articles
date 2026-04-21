@@ -6,7 +6,7 @@ tags:
 ---
 不定期に連載している [Logseqで思考整理・タスク管理 シリーズ](https://funatsufumiya.github.io/articles/tags/logseq-task-management) の第三弾。
 
-前回で一応日誌の付け方はなんとなくわかってもらえているとして、
+[前回](https://funatsufumiya.github.io/articles/2026/02/260206_Logseq_2)で一応日誌の付け方はなんとなくわかってもらえているとして、
 
 - Logseqはなぜ日誌ベースなのか
 - Logseqでどうやって混沌とした思考がまとまっていくのか
