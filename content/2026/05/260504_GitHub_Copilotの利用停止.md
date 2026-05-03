@@ -1,5 +1,7 @@
 ---
 title: 260504 GitHub Copilot の利用停止
+tags:
+  - LLM
 ---
 あまりAIネタを書きたくはないのだけれど、[GitHub Copilotの従量課金制への移行](https://github.blog/jp/2026-04-28-github-copilot-is-moving-to-usage-based-billing/) は個人的に大きなニュースだったので一応言及しておこうかと。
 
