@@ -2,7 +2,7 @@
 tags:
   - julia
 ---
-[前の記事](260504_BinaryBuilder.jlその後)の続き。BinaryBuilder.jl を使わないArtifacts管理について。
+『 [[260504_BinaryBuilder.jlその後]] 』の続き。BinaryBuilder.jl を使わないArtifacts管理について。
 
 まず先に、関連リポジトリを列挙して、後ほど構造を説明。
 ## SDL3
