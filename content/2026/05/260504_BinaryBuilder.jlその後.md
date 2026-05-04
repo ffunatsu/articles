@@ -6,6 +6,8 @@ tags:
 
 https://gist.github.com/funatsufumiya/f4534e38b9de47c4c37ff02e11955a92
 
+（追記: 今後の管理がしやすいようにリポジトリも一応作った: https://github.com/funatsufumiya/libui_ng_jll/）
+
 Linux x86_64 の musl / glibc についてはビルドすることに成功したものの、それ以外のプラットフォームについてはそれぞれの理由で惨敗。
 
 BinaryBuilder.jl が使っているコンテナ（イメージ）の仕様にもう少し仲良くならないと、ビルドを通すのは難しい様子。libui-ngのビルド、実機でのビルドはそんなに難しくないだけに、無念。
