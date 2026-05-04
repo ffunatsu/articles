@@ -23,7 +23,7 @@ https://github.com/funatsufumiya/libui_ng_prebuilt_jll_packager.jl
 
 ## 解説
 
-SDL3もlibui-ngも、似たようなリポジトリになっている。
+SDL3の例もlibui-ngの例も、あえて似たようなリポジトリに構成にしている。というかほぼ流用している。
 
 （ちなみにこれがベストとかいうものではなく、これらの例はCのdllやsoを呼ぶ最低限の構成になっている点に注意。）
 
