@@ -6,7 +6,7 @@ tags:
 
 昔作った、Git LFSなしで大きいファイルと付き合っていくためのgitユーティリティ。いくつかの仕事をこなすなかで、これなしでは生きていけないくらいになった。
 
-https://github.com/funatsufumiya/git_gdrive_interop_without_lfs
+https://github.com/ffunatsu/git_gdrive_interop_without_lfs
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/git_gdrive_interop_without_lfs" ></iframe>
 

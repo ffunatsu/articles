@@ -4,7 +4,7 @@ tags:
   - openFrameworks
   - cpp
 ---
-https://github.com/funatsufumiya/ofxHapPlayer/tree/feat/remove_ffmpeg
+https://github.com/ffunatsu/ofxHapPlayer/tree/feat/remove_ffmpeg
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/ofxHapPlayer" ></iframe>
 

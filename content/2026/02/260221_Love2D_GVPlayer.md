@@ -5,7 +5,7 @@ tags:
 ---
 Love2D用のGV動画プレイヤーを作成した。
 
-https://github.com/funatsufumiya/love2d_gv_video_player
+https://github.com/ffunatsu/love2d_gv_video_player
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/love2d_gv_video_player" ></iframe>
 

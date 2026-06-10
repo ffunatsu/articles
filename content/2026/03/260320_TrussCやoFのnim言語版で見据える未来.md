@@ -4,13 +4,13 @@ tags:
   - openFrameworks
   - trussc
 ---
-![trussc-nim-logo](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/trussc-nim-logo2.png)
+![trussc-nim-logo](https://github.com/ffunatsu/TrussC-nim/raw/main/docs/trussc-nim-logo2.png)
 
-https://github.com/funatsufumiya/TrussC-nim
+https://github.com/ffunatsu/TrussC-nim
 
-![of-nim-logo](https://github.com/funatsufumiya/of-nim/raw/main/docs/of-nim-logo-s.png)
+![of-nim-logo](https://github.com/ffunatsu/of-nim/raw/main/docs/of-nim-logo-s.png)
 
-https://github.com/funatsufumiya/of-nim
+https://github.com/ffunatsu/of-nim
 
 さて、各種アドオンでの検証も少しずつ進んできて、完成度の上がってきた感のあるoFとTrussCのnimバインディング。
 

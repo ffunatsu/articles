@@ -4,9 +4,9 @@ tags:
   - logseq
   - logseq-task-management
 ---
-不定期に連載している [Logseqで思考整理・タスク管理 シリーズ](https://funatsufumiya.github.io/articles/tags/logseq-task-management) の第三弾。
+不定期に連載している [Logseqで思考整理・タスク管理 シリーズ](https://ffunatsu.github.io/articles/tags/logseq-task-management) の第三弾。
 
-[前回](https://funatsufumiya.github.io/articles/2026/02/260206_Logseq_2)で一応日誌の付け方はなんとなくわかってもらえているとして、
+[前回](https://ffunatsu.github.io/articles/2026/02/260206_Logseq_2)で一応日誌の付け方はなんとなくわかってもらえているとして、
 
 - Logseqはなぜ日誌ベースなのか
 - Logseqでどうやって混沌とした思考がまとまっていくのか
@@ -14,7 +14,7 @@ tags:
 について触れていきたいと思う。
 ## ページ単位とブロック単位
 
-[前回](https://funatsufumiya.github.io/articles/2026/02/260206_Logseq_2)の内容でも実は少し触れているところがあるけれど、Logseqは他のエディタ等と違って、「ブロック単位」で管理されている。
+[前回](https://ffunatsu.github.io/articles/2026/02/260206_Logseq_2)の内容でも実は少し触れているところがあるけれど、Logseqは他のエディタ等と違って、「ブロック単位」で管理されている。
 
 ここでいうブロック単位というのは、とりあえず一行の文章とか、一段落の文章だと思ってもらえればOK。
 

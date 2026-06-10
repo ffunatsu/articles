@@ -12,8 +12,8 @@ https://github.com/kyr0/libsharedmemory
 
 作者がサードパーティの例としてofxSharedMemoryを挙げてくれていたので、遅ればせながらv2.0に対応させた。
 
-https://github.com/funatsufumiya/ofxSharedMemory
+https://github.com/ffunatsu/ofxSharedMemory
 
-https://github.com/funatsufumiya/godot_sharedmemory
+https://github.com/ffunatsu/godot_sharedmemory
 
 Godotでも使えるし、例えば動画共有をプロセス間などで行う際に便利と思う。去年その目的で作っていたのだけれど、前述のバグでうまくいかなかったので、その際は別の方法をとってお茶を濁していたので、v2.0になって使っていけるように実用するのがとても楽しみ。

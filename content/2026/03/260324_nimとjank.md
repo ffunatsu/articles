@@ -8,7 +8,7 @@ tags:
 
 先に共有したjank-glfw-test、MSYS2ではないWindowsでも普通に動いた。
 
-https://github.com/funatsufumiya/jank-glfw-test/
+https://github.com/ffunatsu/jank-glfw-test/
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/jank-glfw-test" ></iframe>
 

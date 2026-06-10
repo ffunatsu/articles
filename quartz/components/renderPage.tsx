@@ -255,7 +255,7 @@ export function renderPage(
               <Content {...componentData} />
               <hr />
               <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async></script>
-              <a href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Ffunatsufumiya.github.io%2Farticles%2Findex.xml'  target='blank'><img id='feedlyFollow' src='https://s1.feedly.com/legacy/feedly-follow-rectangle-flat-big_2x.png' alt='follow us in feedly' width='84' height='40' style="margin: 0; margin-left: 10px" /></a>
+              <a href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fffunatsu.github.io%2Farticles%2Findex.xml'  target='blank'><img id='feedlyFollow' src='https://s1.feedly.com/legacy/feedly-follow-rectangle-flat-big_2x.png' alt='follow us in feedly' width='84' height='40' style="margin: 0; margin-left: 10px" /></a>
               <hr />
               <div class="page-footer">
                 {afterBody.map((BodyComponent) => (

@@ -7,19 +7,19 @@ tags:
 まず先に、関連リポジトリを列挙して、後ほど構造を説明。
 ## SDL3
 
-https://github.com/funatsufumiya/SDL3Test.jl
+https://github.com/ffunatsu/SDL3Test.jl
 
-https://github.com/funatsufumiya/SDL3_prebuilt_jll
+https://github.com/ffunatsu/SDL3_prebuilt_jll
 
-https://github.com/funatsufumiya/SDL3_prebuilt_jll_packager.jl
+https://github.com/ffunatsu/SDL3_prebuilt_jll_packager.jl
 
 ## libui-ng
 
-https://github.com/funatsufumiya/LibUiTest.jl
+https://github.com/ffunatsu/LibUiTest.jl
 
-https://github.com/funatsufumiya/libui_ng_prebuilt_jll
+https://github.com/ffunatsu/libui_ng_prebuilt_jll
 
-https://github.com/funatsufumiya/libui_ng_prebuilt_jll_packager.jl
+https://github.com/ffunatsu/libui_ng_prebuilt_jll_packager.jl
 
 ## 解説
 

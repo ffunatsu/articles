@@ -5,7 +5,7 @@ tags:
 ---
 Odin言語を始めて数日（まだ2, 3日くらい）だけど、OSCのライブラリが（OSC Bundleまで扱えて送受信もできるやつが）なさそうだったので、作った。
 
-https://github.com/funatsufumiya/odin-osc
+https://github.com/ffunatsu/odin-osc
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/odin-osc" ></iframe>
 

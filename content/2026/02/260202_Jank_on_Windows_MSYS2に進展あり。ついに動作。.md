@@ -15,4 +15,4 @@ https://github.com/jank-lang/jank/issues/326#issuecomment-3850124650
 
 注意点としては、LLVMの独自パッチ版が使われているのだけど、なぜか手元では必要な tar.zst が生成されなくて困ったので、コメント中にあるように以下の生成結果 (artifact) を利用してインストールした。（llvm-installに展開して、`./bin/build-clang -i` すればOK。）
 
-https://github.com/funatsufumiya/jank-win/actions/runs/21690298753/job/62548270230
+https://github.com/ffunatsu/jank-win/actions/runs/21690298753/job/62548270230

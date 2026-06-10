@@ -6,19 +6,19 @@ tags:
 ---
 libui-ngのV言語実装を作った。
 
-https://github.com/funatsufumiya/v-libui/
+https://github.com/ffunatsu/v-libui/
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/v-libui" ></iframe>
 
 ベースにしたのは、libui-ngのexamples。
 
-https://github.com/funatsufumiya/libui_examples
+https://github.com/ffunatsu/libui_examples
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/libui_examples" ></iframe>
 
 ## 作った動機と、V言語実装を通してCを理解する過程の話（ロゼッタストーンとしてのC2V）
 
-本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたいのが最終目標。 （ → 【追記】[odin-libui](https://github.com/funatsufumiya/odin-libui) も記事を書いたあとすぐに実装・公開しました。実装した感触は[次の記事](https://funatsufumiya.github.io/articles/2025/12/251209_odin-libui) にて。）
+本来の目的は、一つ前の記事で書いたように、Odinでlibui-ng実装をしたいのが最終目標。 （ → 【追記】[odin-libui](https://github.com/ffunatsu/odin-libui) も記事を書いたあとすぐに実装・公開しました。実装した感触は[次の記事](https://ffunatsu.github.io/articles/2025/12/251209_odin-libui) にて。）
 
 が、いきなりOdinでbindgenするとCヘッダーを書き直す過程で苦労しそうなのが目に見えているので、まずはV言語のC2Vトランスレータ（`v translate` や `v translate wrapper`）に頼ってみることにした。
 

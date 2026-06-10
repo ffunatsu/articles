@@ -3,7 +3,7 @@ tags:
   - windows
   - windows-arm
 ---
-https://github.com/funatsufumiya/exe-arch-detector
+https://github.com/ffunatsu/exe-arch-detector
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/exe-arch-detector" ></iframe>
 
@@ -16,7 +16,7 @@ $ file "/c/Users/fu/apps/lovr/lovr"
 # /c/Users/fu/apps/lovr/lovr: Zip archive, with extra data prepended
 ```
 
-そこで、[StackOverflowの回答](https://stackoverflow.com/questions/54834984/how-do-i-determine-the-architecture-of-an-executable-binary-on-windows-10/54835107#54835107)をもとに、使いやすいよう少しコードを修正した [`exe-arch-detector`](https://github.com/funatsufumiya/exe-arch-detector) を作った。GitHub上にexeを同梱しているので、ダウンロードして実行すれば使える。Releasesのやつも中身は同じ。
+そこで、[StackOverflowの回答](https://stackoverflow.com/questions/54834984/how-do-i-determine-the-architecture-of-an-executable-binary-on-windows-10/54835107#54835107)をもとに、使いやすいよう少しコードを修正した [`exe-arch-detector`](https://github.com/ffunatsu/exe-arch-detector) を作った。GitHub上にexeを同梱しているので、ダウンロードして実行すれば使える。Releasesのやつも中身は同じ。
 
 実行すると、exeのCOFF headerというものを読み取った結果が表示されて、x64なのかARMなのかがわかる。
 

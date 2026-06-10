@@ -3,9 +3,9 @@ title: 251209 odin-libui
 tags:
   - odin
 ---
-[前の記事](https://ffunatsu.github.io/articles/2025/12/251209_v-libui_V%E8%A8%80%E8%AA%9E%E5%AE%9F%E8%A3%85%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6C%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B) では [v-libui]([https://github.com/funatsufumiya/v-libui/](https://github.com/ffunatsu/v-libui/)) として libui-ng のV言語バインディングを行ったけれど、その後すぐに [odin-libui](https://github.com/funatsufumiya/odin-libui/) としてOdin言語実装を完成させた。
+[前の記事](https://ffunatsu.github.io/articles/2025/12/251209_v-libui_V%E8%A8%80%E8%AA%9E%E5%AE%9F%E8%A3%85%E3%82%92%E9%80%9A%E3%81%97%E3%81%A6C%E3%82%92%E7%90%86%E8%A7%A3%E3%81%99%E3%82%8B) では [v-libui]([https://github.com/ffunatsu/v-libui/](https://github.com/ffunatsu/v-libui/)) として libui-ng のV言語バインディングを行ったけれど、その後すぐに [odin-libui](https://github.com/ffunatsu/odin-libui/) としてOdin言語実装を完成させた。
 
-https://github.com/funatsufumiya/odin-libui/
+https://github.com/ffunatsu/odin-libui/
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/odin-libui" ></iframe>
 

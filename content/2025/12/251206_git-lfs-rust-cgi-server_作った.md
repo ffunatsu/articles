@@ -8,13 +8,13 @@ tags:
 ---
 作ったやつ↓。
 
-https://github.com/funatsufumiya/git-lfs-rust-cgi-server/
+https://github.com/ffunatsu/git-lfs-rust-cgi-server/
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/git-lfs-rust-cgi-server" ></iframe>
 
 以前作っていた、↓のPHP版と比較して、体感的に10倍から100倍はレスポンスが速い。すごい。
 
-https://github.com/funatsufumiya/git-lfs-php-server
+https://github.com/ffunatsu/git-lfs-php-server
 
 <iframe width="426" height="162" scrolling="no" frameborder="0" src="https://matsubara0507.github.io/github-card/?target=funatsufumiya/git-lfs-php-server" ></iframe>
 

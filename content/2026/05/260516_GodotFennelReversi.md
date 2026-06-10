@@ -6,7 +6,7 @@ tags:
 ---
 https://funatsufumiya.itch.io/godot-fennel-reversi
 
-![](https://github.com/funatsufumiya/GodotFennelReversi/blob/main/docs/screenshot3.png?raw=true)
+![](https://github.com/ffunatsu/GodotFennelReversi/blob/main/docs/screenshot3.png?raw=true)
 
 https://itch.io/jam/spring-lisp-game-jam-2026/entries
 
@@ -14,6 +14,6 @@ https://itch.io/jam/spring-lisp-game-jam-2026/entries
 
 ちなみに今回のために一部GDExtensionをgdscript化したりした。それでも、web版はレンダリングがおかしかったのでExperimentalとした。
 
-https://github.com/funatsufumiya/godot_finder_gdscript/
+https://github.com/ffunatsu/godot_finder_gdscript/
 
 8日後のレビューが楽しみ。投稿者増えないかな。

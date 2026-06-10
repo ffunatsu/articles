@@ -5,9 +5,9 @@ tags:
 ---
 以下、[libui-ng](https://github.com/libui-ng/libui-ng)をJLLとしてパッケージングしようとした途中経過。`build_tarballs.jl`。
 
-https://gist.github.com/funatsufumiya/f4534e38b9de47c4c37ff02e11955a92
+https://gist.github.com/ffunatsu/f4534e38b9de47c4c37ff02e11955a92
 
-（5/4追記: この記事を書いた時点のRevision: https://gist.github.com/funatsufumiya/f4534e38b9de47c4c37ff02e11955a92/c5738fee485d37f95235ea6bf0a84ec6ddf21c5a 。上記URLは最新に追従することに注意。）
+（5/4追記: この記事を書いた時点のRevision: https://gist.github.com/ffunatsu/f4534e38b9de47c4c37ff02e11955a92/c5738fee485d37f95235ea6bf0a84ec6ddf21c5a 。上記URLは最新に追従することに注意。）
 
 BinaryBuilderのwizardでここまではできて、実際は最後のリンクに失敗するのでまだまだ確認が必要。`--debug` とかのオプションを使うとこのスクリプトをさらにインタラクティブに確認したりできるらしいのだけれど、未検証。
 

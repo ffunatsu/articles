@@ -5,9 +5,9 @@ title: 260322 awesome-nim がすごい
 ---
 ## awesome-nimを見ようと思ったきっかけ：nimらしさの探求
 
-[昨日書いた記事](./260320_TrussCやoFのnim言語版で見据える未来) で、nimのフレームワークを2つ作った話を書いたのだけれど、その2種のフレームワークで少しずつnimらしさを出せるようなexampleを少しずつ試していて、[nimscripter](https://github.com/beef331/nimscripter)を使った[サンプル](https://github.com/funatsufumiya/TrussC-nim/blob/main/examples/nimscripter_reload_test.nim)をあげたりしている。
+[昨日書いた記事](./260320_TrussCやoFのnim言語版で見据える未来) で、nimのフレームワークを2つ作った話を書いたのだけれど、その2種のフレームワークで少しずつnimらしさを出せるようなexampleを少しずつ試していて、[nimscripter](https://github.com/beef331/nimscripter)を使った[サンプル](https://github.com/ffunatsu/TrussC-nim/blob/main/examples/nimscripter_reload_test.nim)をあげたりしている。
 
-![nimscripter_reload_test image](https://github.com/funatsufumiya/TrussC-nim/raw/main/docs/reload.png)
+![nimscripter_reload_test image](https://github.com/ffunatsu/TrussC-nim/raw/main/docs/reload.png)
 
 これくらいだと正直LuaをC++に埋め込んだのとあんまり大差なくて、Rを押すとスクリプトがリロードされるとか、ファイルの更新を検知してリロードするくらいでは、それほどnimらしさは出ていないかもしれない。
 
