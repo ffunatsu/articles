@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {provider: 'google', tagId: 'G-1L2ZF9ZJZ2' }, 
     locale: "ja-JP",
-    baseUrl: "funatsufumiya.github.io/articles",
+    baseUrl: "ffunatsu.github.io/articles",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
