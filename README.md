@@ -2,7 +2,7 @@
 
 Japanese tech blog using Obsidian.
 
-https://funatsufumiya.github.io/articles/
+https://ffunatsu.github.io/articles/
 
 GitHub Pagesと[Quartz4](https://github.com/jackyzha0/quartz)を利用した個人ブログです。技術情報共有が目的です。
 
