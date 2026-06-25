@@ -31,7 +31,7 @@ activate base # 自動でbaseをactivateしたい場合のみ。
 
 ```bash
 # windowsの場合
-$ winget install starship
+$ winget install starship.starship
 
 # macの場合は
 $ brew install starship
