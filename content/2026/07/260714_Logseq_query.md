@@ -1,7 +1,7 @@
 ---
 tags:
   - logseq
-aliases:
+title:
   - 260714 Logseqのresult-transformの個人的ベスト
 ---
 優先度のついたものは先に表示しつつ、それ以外は日付順にソートして、直近30個を取得する result-transform。長らくどうすればベストか悩んでいたけれど、これで良さそう。
