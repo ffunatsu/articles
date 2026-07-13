@@ -53,14 +53,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.ConditionalRender({
+    Component.DesktopOnly(Component.ConditionalRender({
       component: Component.RecentNotes({
         title: "最近の更新",
         limit: 3,
         showTags: false
       }),
       condition: (page: QuartzComponentProps) => true
-    })
+    }))
   ],
   right: [
     // Component.Graph(),
