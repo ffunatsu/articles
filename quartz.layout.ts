@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.ConditionalRender({
       component: Component.RecentNotes({
         title: "最近の更新",
-        limit: 5,
+        limit: 7,
         showTags: false
       }),
       condition: (page: QuartzComponentProps) => page.fileData.slug === "index" || page.fileData.slug === ""
@@ -53,6 +53,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "最近の更新",
+        limit: 5,
+        showTags: false
+      }),
+      condition: (page: QuartzComponentProps) => true
+    })
   ],
   right: [
     // Component.Graph(),
