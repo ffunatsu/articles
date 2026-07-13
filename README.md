@@ -27,3 +27,5 @@ $ npx quartz build
 記事（[`content`](./content)および生成されたHTMLの記事部分）については CC BY-SA 4.0 とします。(Articles under content: CC BY-SA 4.0)
 
 それ以外のソースコードは[Quartz4](https://github.com/jackyzha0/quartz)と同じライセンスを適用します。 (Other scripts related to Quartz4: MIT License) 
+
+Copyright (c) 2026 Fumiya Funatsu
