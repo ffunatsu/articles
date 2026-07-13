@@ -1,11 +1,21 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzComponentProps } from "./quartz/components/types"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "最近の更新",
+        limit: 10,
+        showTags: false
+      }),
+      condition: (page: QuartzComponentProps) => page.fileData.slug === "index" || page.fileData.slug === ""
+    })
+  ],
   // footer: Component.Footer()
   footer: Component.Footer({
     links: {
