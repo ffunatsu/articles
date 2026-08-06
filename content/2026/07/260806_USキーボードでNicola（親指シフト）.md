@@ -6,7 +6,7 @@ tags:
 
 ## MacBook (US) での親指シフト
 
-- Karabiner NICOLA Orz (with Right Command key, for US Keyboard, Karabiner-Elements Complex Modification) https://gist.github.com/ffunatsu/1737d39f219a41ac7a983d18a4254b06
+- Karabiner NICOLA Orz (with Right Command key, for US Keyboard) https://gist.github.com/ffunatsu/1737d39f219a41ac7a983d18a4254b06
 
 参考にしたのは[この記事](https://note.com/mizmizc/n/nb9590a229a9d)で、Karabiner-Elementsでスペースキーとかなキーを使ってOrzレイアウトにより快適に親指シフトができるというもの。
 
