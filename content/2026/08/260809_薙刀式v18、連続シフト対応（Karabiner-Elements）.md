@@ -2,9 +2,9 @@
 tags:
   - かな入力
 ---
-https://gist.github.com/ffunatsu/c12ac5d07398e9660c76f3ca642ce1f2
+https://gist.github.com/ffunatsu/c12ac5d07398e9660c76f3ca642ce1f2 （薙刀式v18）
 
-https://gist.github.com/ffunatsu/cee6486d63f4e49e426fbd9f94dd5ab7
+https://gist.github.com/ffunatsu/cee6486d63f4e49e426fbd9f94dd5ab7 （薙刀式v18 Orzレイアウト）
 
 昨日公開した薙刀式v18（Orzレイアウト含む）、**Karabiner-Elements でも親指シフトキーの連続シフト（スペースキーや右Commandの押しっぱなし）に対応した**。※
 
