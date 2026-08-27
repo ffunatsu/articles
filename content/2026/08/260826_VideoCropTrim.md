@@ -8,6 +8,6 @@ Skitchのクローンについては、[一つ前の記事](260826_PinkArrows更
 
 最近Antigravity IDEを少しかじっているのもあって、先の記事の件もあって案外楽に作れるのではないかと思ったら、案の定すぐに作ってくれて（[↑](https://github.com/ffunatsu/VideoCropTrim)）驚き。
 
-ただ、こういうバイブコーディングでの車輪の再発明はいま世界的に同時多発的に起こっているようで、例えばSkitchのWindowsクローンとかは[winskitch](https://github.com/phalladar/winsitch)というのが先月作れられていて、中身はClaude Codeで生成されている様子。
+ただ、こういうバイブコーディングでの車輪の再発明はいま世界的に同時多発的に起こっているようで、例えばSkitchのWindowsクローンとかは[winsitch](https://github.com/phalladar/winsitch)というのが先月作れられていて、中身はClaude Codeで生成されている様子。
 
 こうした車輪の再発明は正直エネルギーの無駄だと思うので、個人的にはごく最小限にしたい。GitHubも、バイブコーディングのせいでかなりの負荷とリソースの増大が起きているようで、個人的には今後は生成AIの利用と車輪の再発明は極力避けていきたい。
