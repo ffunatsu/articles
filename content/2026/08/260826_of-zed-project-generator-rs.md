@@ -10,7 +10,7 @@ https://github.com/ffunatsu/of-zed-project-generator-rs/
 
 前々からやりたいなーと思っていた、[openFrameworksのVSCode用プロジェクトジェネレータ](https://github.com/ffunatsu/of-vscode-project-generator-rs)のZedへの移植について、ようやく達成できた。
 
-思えば、このアドオンを作った頃はCodyというAIアシスタントを愛用していて、自分の手でスクラッチで書いた[シェルスクリプト](https://github.com/ffunatsu/of-vscode-project-generator-sh)を、CodyにRust化してもらっていたのを思い出す。今回同じような感じでAntigravityにZed対応してもらった。
+思えば、このアドオンを作った頃はCodyというAIアシスタントを愛用していて、自分の手でスクラッチで書いた[シェルスクリプト](https://github.com/ffunatsu/of-vscode-project-generator-sh)を、CodyにRust化してもらっていたのを思い出す（***追記*** : READMEを確認したらCodyではなくGitHub Copilotを使ってました）。今回同じような感じでAntigravityにZed対応してもらった。
 
 Codyとのやりとりは、結構大変だったような印象があったけれど、Antigravityはかなり進化していて、ほとんど手間がかかることなく、意図もすんなり読み取って実行に移してくれるのですごい。
 
