@@ -1,5 +1,5 @@
 ---
-title: 260826_openFrameworksのZedプロジェクトジェネレータ
+title: 260827_openFrameworksのZedプロジェクトジェネレータ
 tags:
   - Zed
   - openFrameworks
